@@ -1,9 +1,18 @@
 
 /**
- * Write a description of class NameGenerator here.
+ * genere un nombre para la película siguiendo el método descrito.
+ * Hay un rumor en Internet que dice que George Lucas, el director de la saga de películas "Star Wars", 
+ * utilizaba una misma formula para crear los nombres de los personajes de dichas películas (Obiwan Kenobi, Jarjar Binks)
+    Tu nombre en la película sería:
+        Tomando las tres primeras letras de tu primer apellido real
+        Añadiendo las tres primeras letras de tu nombre real
+
+    Tu apellido en la película sería:
+        Tomando las dos primeras letras del primer apellido real de tu madre
+        Añadiendo las 3 primeras letras del nombre de la ciudad donde naciste
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Laura 
+ * @version 6/4/2014
  */
 public class NameGenerator
 {
