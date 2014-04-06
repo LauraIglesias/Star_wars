@@ -25,8 +25,14 @@ public class NameGenerator
         this.segundoApellido = segundoApellido;
         this.ciudadNacimiento = ciudadNacimiento;
     }
-
+    /**
+     * Crea el nombre cogiendo las 3 primeras letras del primer apellido y las 3 primeras letras del nombre
+     * Crea el apellido cogiendo las 2 primeras letras del segundo apellido y las 3 primeras letras de la ciudad donde nacio 
+     */
     public String generateStarWarsName()
     {
+        String nombre = primerApellido.substring(0,3) + name.substring(0,3);
+        String apellido = segundoApellido.substring(0,2) + ciudadNacimiento.substring(0,3);
+        return nombre + " " + apellido;
     }
 }

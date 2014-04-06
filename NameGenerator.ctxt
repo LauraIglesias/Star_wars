@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=name\ primerApellido\ segundoApellido\ ciudadNacimiento
+comment0.target=NameGenerator(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ @param\ name\ tu\ nombre\r\n\ \ \ \ \ \ \ @param\ primerApellido\ tu\ apellido\r\n\ \ \ \ \ \ \ @param\ segundoApellido\ tu\ segundo\ apellido\r\n\ \ \ \ \ \ \ @param\ ciudadNacimiento\ la\ ciudad\ donde\ naciste\r\n
+comment1.params=
+comment1.target=java.lang.String\ generateStarWarsName()
+comment1.text=\r\n\ Crea\ el\ nombre\ cogiendo\ las\ 3\ primeras\ letras\ del\ primer\ apellido\ y\ las\ 3\ primeras\ letras\ del\ nombre\r\n\ Crea\ el\ apellido\ cogiendo\ las\ 2\ primeras\ letras\ del\ segundo\ apellido\ y\ las\ 3\ primeras\ letras\ de\ la\ ciudad\ donde\ nacio\ \r\n
+numComments=2
