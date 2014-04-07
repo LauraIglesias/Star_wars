@@ -20,6 +20,9 @@ public class NameGenerator
     private String primerApellido;
     private String segundoApellido;
     private String ciudadNacimiento;
+    private static final int TRES_LETRAS = 3;
+    private static final int DOS_LETRAS = 2;
+    private static final int MINIMO_LETRAS = 0;
 
     /**
      * @param name tu nombre
@@ -40,8 +43,8 @@ public class NameGenerator
      */
     public String generateStarWarsName()
     {
-        String nombre = primerApellido.substring(0,3) + name.substring(0,3);
-        String apellido = segundoApellido.substring(0,2) + ciudadNacimiento.substring(0,3);
+        String nombre = primerApellido.substring(MINIMO_LETRAS,TRES_LETRAS) + name.substring(MINIMO_LETRAS,TRES_LETRAS);
+        String apellido = segundoApellido.substring(MINIMO_LETRAS,DOS_LETRAS) + ciudadNacimiento.substring(MINIMO_LETRAS,TRES_LETRAS);
         return nombre + " " + apellido;
     }
 }
